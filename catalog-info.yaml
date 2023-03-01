@@ -1,0 +1,16 @@
+apiVersion: "backstage.io/v1alpha1"
+kind: Component
+metadata: 
+  name: scaffolder-backend-module-confluence-to-markdown
+  title: Scaffolder backend Module Confluence to Markdown
+  descrption: Scaffolder action to convert confluence doc to markdown
+  annotations: 
+    github.com/project-slug: tradcliffe-expediagroup/scaffolder-backend-module-confluence-to-markdown
+  tags: 
+    - scaffolder
+    - oss
+    - confluence-to-markdown
+  spec: 
+    type: library
+    owner: tradcliffe-expediagroup
+    lifecycle: production
